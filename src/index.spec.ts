@@ -25,6 +25,7 @@ describe("BaseError", () => {
     describe(CustomError1.name, () => {
         it("should work with derived classes", () => {
             const error1 = new CustomError1("Custom error 1");
+            expect(error1.name).toBe("CustomError1");
             expect(error1 instanceof Error).toBe(true);
             expect(error1 instanceof CustomError1).toBe(true);
             expect(error1 instanceof CustomError2).toBe(false);
@@ -36,6 +37,7 @@ describe("BaseError", () => {
     describe(CustomError2.name, () => {
         it("should work with derived classes", () => {
             const error2 = new CustomError2("Custom error 2", 404);
+            expect(error2.name).toBe("CustomError2");
             expect(error2 instanceof Error).toBe(true);
             expect(error2 instanceof CustomError1).toBe(false);
             expect(error2 instanceof CustomError2).toBe(true);
@@ -48,6 +50,7 @@ describe("BaseError", () => {
     describe(CustomError3.name, () => {
         it("should work with derived classes", () => {
             const error3 = new CustomError3("Custom error 3", "fooValue", new Date("2024-01-01T00:00:00Z"));
+            expect(error3.name).toBe("CustomError3");
             expect(error3 instanceof Error).toBe(true);
             expect(error3 instanceof CustomError1).toBe(false);
             expect(error3 instanceof CustomError2).toBe(false);
