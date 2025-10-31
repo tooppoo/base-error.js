@@ -7,5 +7,7 @@ export abstract class BaseError extends Error {
         if (Error.captureStackTrace) {
             Error.captureStackTrace(this, BaseError);
         }
+
+        this.name = new.target.name;
     }
 }
