@@ -1,4 +1,4 @@
-name: Web Create Release
+name: Publish
 on:
   workflow_dispatch:
 
