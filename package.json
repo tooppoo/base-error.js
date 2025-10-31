@@ -9,6 +9,9 @@
       "require": "./dist/index.cjs"
     }
   },
+  "engines": {
+    "node": ">= 20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.json --emitDeclarationOnly",
