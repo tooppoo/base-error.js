@@ -17,7 +17,8 @@
     "build": "vite build && tsc -p tsconfig.json --noEmit",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "changeset": "changeset"
   },
   "repository": {
     "type": "git",
@@ -34,11 +35,18 @@
   },
   "homepage": "https://github.com/tooppoo/base-error.js#readme",
   "devDependencies": {
+    "@changesets/cli": "2.29.7",
     "typescript": "5.9.3",
     "vite": "7.1.12",
     "vitest": "4.0.5"
   },
-  "files": ["src", "dist", "LICENSE", "README.md", "package.json"],
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "publishConfig": {
     "access": "public"
   }
