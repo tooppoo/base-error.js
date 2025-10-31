@@ -1,6 +1,6 @@
 {
   "name": "@philomagi/base-error.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "base class for custom error class for TypeScript and Node.js",
   "exports": {
     ".": {
