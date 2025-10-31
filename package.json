@@ -1,5 +1,5 @@
 {
-  "name": "base-error.js",
+  "name": "@philomagi/base-error.js",
   "version": "0.0.1",
   "description": "base class for custom error class for TypeScript and Node.js",
   "exports": {
@@ -35,5 +35,8 @@
     "vite": "7.1.12",
     "vitest": "4.0.5"
   },
-  "files": ["src", "dist", "LICENSE", "README.md", "package.json"]
+  "files": ["src", "dist", "LICENSE", "README.md", "package.json"],
+  "publishConfig": {
+    "access": "public"
+  }
 }
