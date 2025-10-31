@@ -1,0 +1,28 @@
+{
+  "name": "base-error.js",
+  "version": "0.0.1",
+  "description": "base class for custom error class for TypeScript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooppoo/base-error.js.git"
+  },
+  "keywords": [
+    "Custom",
+    "Error"
+  ],
+  "author": "philomagi <tooppoo56@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooppoo/base-error.js/issues"
+  },
+  "homepage": "https://github.com/tooppoo/base-error.js#readme",
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.1.12",
+    "vitest": "4.0.5"
+  }
+}
