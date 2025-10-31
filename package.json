@@ -10,11 +10,11 @@
     }
   },
   "engines": {
-    "node": ">= 20"
+    "node": "20.x || >=22"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc -p tsconfig.json --emitDeclarationOnly",
+    "build": "vite build && tsc -p tsconfig.json --noEmit",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
