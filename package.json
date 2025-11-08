@@ -37,7 +37,7 @@
   "devDependencies": {
     "@changesets/cli": "2.29.7",
     "typescript": "5.9.3",
-    "vite": "7.1.12",
+    "vite": "7.2.0",
     "vitest": "4.0.6"
   },
   "files": [
